@@ -1,2 +1,0 @@
-# Basededatosgithub.io
-Basededatosgithub.io
