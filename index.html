@@ -3,45 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INICIO</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="img/123.ico" type="image/x-icon">
+    <title>Mi Sitio Unificado</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Barra de navegación -->
-    <div class="navbar">
-        <!-- Logo a la izquierda -->
-        <div class="logo">
-            <a href="index.html">
-                <img src="img/descarga.png" alt="Logo">
-            </a>
-        </div>
-
-        <!-- Nombre del estudiante -->
-        <div class="nombre">
-            <h2>ROJAS VARGAS JOSEF</h2>
-        </div>
-
-        <!-- Menú de navegación -->
-        <div class="menu">
-            <a href="index.html">INICIO</a>
-            <a href="sobre_mi.html">SOBRE MÍ</a>
-            <a href="profesor.html">PROFESOR</a>
-            <a href="tareas.html" class="tareas">TAREAS</a>
-        </div>
-    </div>
-
-    <!-- Contenido principal -->
-    <div class="contenido-inicio">
-        <div class="inicio-contenedor">
-            <!-- Imagen a la izquierda -->
-            <div class="imagen-izquierda">
-                <img src="img/descarga (1).png" alt="Imagen de inicio">
+    <!-- ====== HEADER CON LOGO ====== -->
+    <header>
+        <div class="header-content">
+            <div class="logo-header">
+                <img src="LogoUpla.png" alt="Logo Universidad">
             </div>
 
-            <!-- Texto a la derecha -->
-            <div class="texto-derecha">
+            <nav>
+                <ul>
+                    <!--<li><a href="#inicio">Inicio</a></li>-->
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#profesor">Profesor</a></li>
+                    <li><a href="#tareas">Tareas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ====== INICIO ====== -->
+    <!--<section id="inicio">
+        <h1>Bienvenido</h1>
+        <div class="texto-derecha">
                 <h1>UNIVERSIDAD PERUANA LOS ANDES</h1>
                 <p>
                     Para poder ofrecerte un resumen más específico, necesitaría saber a qué curso te refieres exactamente. 
@@ -50,49 +38,151 @@
                     Si me proporcionas más detalles sobre el contenido del curso o el enfoque, puedo darte una descripción más precisa.
                 </p>
             </div>
-        </div>
-    </div>
+    </section>-->
 
-    <!-- Pie de página -->
-    <footer>
-        <div class="footer-container">
-            <!-- Enlaces rápidos -->
-            <div class="footer-left">
-                <h4>ENLACES RÁPIDOS</h4>
-                <ul>
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="sobre_mi.html">SOBRE MÍ</a></li>
-                    <li><a href="profesor.html">DOCENTE</a></li>
-                    <li><a href="tareas.html">PROYECTOS</a></li>
-                </ul>
+    <!-- ====== SOBRE MÍ ====== -->
+    <section id="sobre-mi">
+        <div class="contenido-principal">
+            <div class="contenido-left">
+                <img src="wiliamsrv.png" alt="Imagen">
             </div>
 
-            <!-- Separador -->
-            <div class="footer-separator"></div>
-
-            <!-- Redes sociales -->
-            <div class="footer-right">
-                <h4>Sígueme en:</h4>
-                <div class="social-icons">
-                    <a href="https://github.com/josefrojas23/Portafolio." target="_blank">
-                        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub">
-                    </a>
-                    <a href="https://www.instagram.com/yhosep_pv/" target="_blank">
-                        <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram">
-                    </a>
-                    <a href="https://www.facebook.com/gian.rojas.9250" target="_blank">
-                        <img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" alt="Facebook">
-                    </a>
-                </div>
+            <div class="contenido-right">
+                <h1>ROJAS VARGAS JOSEF</h1>
+                <p>
+                    Soy estudiante de Ingeniería de Sistemas y Computación en la Universidad Peruana Los Andes,
+                    especializado en el estudio y manejo de bases de datos. A lo largo de mi formación, he adquirido experiencia en el diseño, administración y optimización de bases de datos relacionales y no relacionales, utilizando herramientas como SQL, MySQL, PostgreSQL y MongoDB. Mi interés principal se centra en el análisis de datos y en el desarrollo de soluciones eficientes para gestionar grandes volúmenes de información, contribuyendo a una mejor toma de decisiones en las organizaciones. Aspiro a seguir profundizando en este campo, enfocándome en la creación de sistemas de bases de datos robustos y en soluciones que optimicen la gestión de la información en el entorno profesional.
+                </p>
             </div>
         </div>
 
-        <!-- Derechos -->
-        <div class="footer-bottom">
-            <p>&copy; Optimizando el presente para construir el mañana.</p>
+        <div class="social-icons">
+            <a href="https://github.com/josefrojas23/Portafolio." target="_blank" class="icon">
+                <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.instagram.com/@yhosep_pv" target="_blank" class="icon">
+                <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram">
+            </a>
+            <a href="#" target="_blank" class="icon">
+                <img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" alt="Facebook">
+            </a>
         </div>
-    </footer>
+    </section>
 
+    <!-- ====== PROFESOR ====== -->
+    <section id="profesor">
+        <div class="contenido-principal">
+            <div class="contenido-left">
+                <img src="ing benjarano.png" alt="Profesor">
+            </div>
+
+            <div class="contenido-right">
+                <h1>Raul Enrique Bejarano</h1>
+                <p>
+                    Este curso avanzado está diseñado para profundizar en el diseño y gestión de bases de datos, proporcionando una comprensión sólida de técnicas avanzadas esenciales en el campo.
+
+En el transcurso del curso, exploraremos los siguientes temas clave:
+
+Diseño avanzado de esquemas de bases de datos.
+Optimización de consultas y mejora del rendimiento.
+Administración y estrategias de seguridad en bases de datos.
+Implementación de procedimientos almacenados y triggers.
+Introducción a bases de datos distribuidas y tecnologías NoSQL.
+Los estudiantes tendrán la oportunidad de participar en proyectos prácticos y analizar estudios de caso, aplicando los conceptos teóricos a escenarios reales.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== TAREAS ====== -->
+    <section id="tareas">
+        <h2>Tareas</h2>
+
+        <div class="tareas-contenido">
+            <div class="tareas-contenido"> 
+                <div class="cuadro"> 
+                    <img src="img/sem2.png" alt="Semana 2"> 
+                    <h3>SEMANA 2</h3> 
+                    <p>ANÁLISIS DE SISTEMAS</p> 
+                    <a href="tareas_pdf/semana2.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/sem3.png" alt="Semana 3"> 
+                <h3>SEMANA 3</h3> <p>MODELADO DE DATOS</p> 
+                <a href="tareas_pdf/semana3.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/sem4.png" alt="Semana 4"> 
+                <h3>SEMANA 4</h3> <p>DISEÑO DE BASE DE DATOS</p> 
+                <a href="tareas_pdf/semana4.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/sem5.png" alt="Semana 5"> 
+                <h3>SEMANA 5</h3> <p>CONSULTAS SQL BÁSICAS</p> 
+                <a href="tareas_pdf/semana5.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/sem6.png" alt="Semana 6"> 
+                <h3>SEMANA 6</h3> 
+                <p>JOINS Y FUNCIONES SQL</p> <a href="tareas_pdf/semana6.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/sem7.png" alt="Semana 7"> 
+                <h3>SEMANA 7</h3> <p>PROCEDIMIENTOS ALMACENADOS</p> 
+                <a href="tareas_pdf/semana7.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/sem8.png" alt="Semana 8"> 
+                <h3>SEMANA 8</h3> 
+                <p>FUNCIONES Y TRIGGERS</p> 
+                <a href="tareas_pdf/semana8.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/sem9.png" alt="Semana 9"> 
+                <h3>SEMANA 9</h3> <p>VISTAS Y SEGURIDAD EN SQL</p> 
+                <a href="tareas_pdf/semana9.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/1-Nuevo-inicio-de-sesión.png" alt="Semana 10"> 
+                <h3>SEMANA 10</h3> <p>CREACIÓN DE USUARIO</p> 
+                <a href="tareas_pdf/semana10.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/screenshot.13.png" alt="Semana 11"> 
+                <h3>SEMANA 11</h3> <p>ENCRIPTACIÓN EN SQL SERVER</p> 
+                <a href="tareas_pdf/semana11.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/NORMAS.png" alt="Semana 12"> 
+                <h3>SEMANA 12</h3> <p>NORMAS Y ESTÁNDARES</p>
+                <a href="tareas_pdf/semana12.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/100 datos.png" alt="Semana 13"> 
+                <h3>SEMANA 13</h3> <p>ADMINISTRACIÓN DE DATOS</p> 
+                <a href="tareas_pdf/semana13.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/sem14.png" alt="Semana 14"> 
+                <h3>SEMANA 14</h3> <p>OPTIMIZACIÓN DE CONSULTAS</p> 
+                <a href="tareas_pdf/semana14.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/sem15.png" alt="Semana 15"> 
+                <h3>SEMANA 15</h3> 
+                <p>PROYECTO FINAL - PARTE 1</p> 
+                <a href="tareas_pdf/semana15.pdf" class="btn" target="_blank">VER PDF</a> 
+            </div> 
+            <div class="cuadro"> 
+                <img src="img/LIBRO.png" alt="Semana 16"> 
+                <h3>SEMANA 16</h3> 
+                <p>RESUMEN DEL CICLO</p> 
+                <a href="tareas_pdf/semana16.pdf" class="btn" target="_blank">VER PDF</a> 
+                <a href="tareas_pdf/SQLServer.pdf" class="btn codigo-btn" target="_blank">VER LIBRO</a> 
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
 </body>
 </html>
-
